@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+#text {
+    font-size: 24px; /* Kích thước mặc định */
+    margin-bottom: 20px;
+}
+.btn {
+    font-size: 20px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+}
+.increase {
+    background-color: #28a745; /* Xanh lá */
+}
+.decrease {
+    background-color: #dc3545; /* Đỏ */
+}
