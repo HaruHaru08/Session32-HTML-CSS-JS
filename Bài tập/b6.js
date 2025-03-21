@@ -1,14 +1,14 @@
 let textElement = document.getElementById("text");
-let fontSize = 24; // Kích thước mặc định
+let fontSize = 24;
 
-function increaseFont() {
+function increase() {
     fontSize += 2;
     textElement.style.fontSize = fontSize + "px";
 }
 
-function decreaseFont() {
+function reduce() {
     fontSize -= 2;
-    if (fontSize >= 10) { // Giới hạn nhỏ nhất là 10px
+    if (fontSize >= 10) {
         textElement.style.fontSize = fontSize + "px";
     }
 }

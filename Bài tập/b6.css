@@ -6,25 +6,23 @@ body {
 .container {
     background-color: #f4f4f4;
     padding: 20px;
-    display: inline-block;
     border-radius: 10px;
 }
 #text {
-    font-size: 24px; /* Kích thước mặc định */
+    font-size: 24px;
     margin-bottom: 20px;
 }
 .btn {
     font-size: 20px;
     padding: 10px 15px;
     border: none;
-    cursor: pointer;
     border-radius: 5px;
     color: white;
     margin: 5px;
 }
 .increase {
-    background-color: #28a745; /* Xanh lá */
+    background-color: #28a745;
 }
-.decrease {
-    background-color: #dc3545; /* Đỏ */
+.reduce{
+    background-color: #dc3545; 
 }
